@@ -22,7 +22,7 @@ class _TabsState extends State<Tabs> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("HelloCASA"),
+        title: const Text("Logout"),
       ),
       body: _pages[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
